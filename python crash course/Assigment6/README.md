@@ -7,7 +7,7 @@ cloud = wordcloud.WordCloud()
 cloud.generate_from_frequencies(frequencies)
 cloud.to_file("myfile.jpg")
 ```
-**** Things to remember 
+ Things to remember 
 1. Before processing any text, you need to remove all the punctuation marks. 
 2. split a line of text into words.
 3. Before storing words in the frequency dictionary, 
